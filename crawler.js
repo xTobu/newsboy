@@ -5,6 +5,9 @@ stealth.onBrowser = () => {};
 puppeteer.use(stealth);
 puppeteer.use(AdblockerPlugin());
 
+// 目前進度
+// 爬蟲可爬到：marketwatch
+// 加上 adblocker 和 stealth 之後
 const fs = require('fs');
 
 class Crawler {
